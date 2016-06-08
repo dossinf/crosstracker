@@ -1,0 +1,18 @@
+Package: crosstracker
+Title: Time tracker for SGA crosses
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: This package organizes your SGA crosses on a calendar, and reminds
+    you which crosses need to be replicated on a given day. Note: It is preferable
+    to run this package once a day, everyday, to ensure that you don't miss any step
+    in your crosses.
+Depends:
+    R (>= 3.1)
+Imports:
+    dplyr,
+    tidyr,
+    readr
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
